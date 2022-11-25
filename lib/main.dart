@@ -1,5 +1,7 @@
 import 'package:firstproject/grid.dart';
 import 'package:firstproject/home_screen.dart';
+import 'package:firstproject/password_reset.dart';
+import 'package:firstproject/profile_setting.dart';
 import 'package:firstproject/register_form.dart';
 import 'package:firstproject/second_screen.dart';
 import 'package:flutter/material.dart';
@@ -35,9 +37,11 @@ class MyApp extends StatelessWidget {
 
         //  home: const screen());
         //  home: const Details());
-       // home: const grid());
-        home: const login());
-    // home: const RegisterForm());
+        // home: const grid());
+        // home: const login());
+        // home: const RegisterForm());
+       // home: const PasswordReset());
+         home: const ProfileSettings());
   }
 }
 
